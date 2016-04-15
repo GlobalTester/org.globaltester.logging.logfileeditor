@@ -1,4 +1,4 @@
-package org.globaltester.logging.ui.editors;
+package org.globaltester.logging.logfileeditor.ui.editors;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
