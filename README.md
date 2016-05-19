@@ -1,3 +1,3 @@
-org.globaltester.logging
+org.globaltester.logging.logfileeditor
 ===
-This repository contains logging related OSGi bundles.
+This repository contains the GlobalTester LogfileEditor.
