@@ -702,7 +702,7 @@ public class ApduCommandTextHover implements ITextHover {
 					} else if (params.equals("81 B6")) {
 						descr = "Set Digital Signature Template for verification";
 					}
-					//TODO analyze data field of MSE
+					//IMPL analyze data field of MSE
 					break;
 				case (byte) 0xA4:
 					infos.addAll(describeDataSelect(apdu, dataOffset, dataLength));
