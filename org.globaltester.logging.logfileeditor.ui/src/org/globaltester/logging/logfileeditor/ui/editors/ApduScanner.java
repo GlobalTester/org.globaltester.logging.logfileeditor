@@ -82,7 +82,7 @@ public class ApduScanner implements ITokenScanner {
 		// reset tokens
 		tokens = new LinkedList<TokenInformation>();
 
-		// TODO check leading description and add token
+		// IMPL check leading description and add token
 		offset += 24; // skip leading description
 
 		// add token for apdu head

@@ -180,7 +180,7 @@ public class ApduCommandTextHover implements ITextHover {
 						+ StringUtil.getHex((byte) (apdu[0] & 0x03));
 			}
 		} else {
-			// TODO describe further interindustry class byte
+			// IMPL describe further interindustry class byte
 		}
 
 		// prepare return value
@@ -394,7 +394,7 @@ public class ApduCommandTextHover implements ITextHover {
 				break;
 				
 			default:
-				//TODO check for unimplemented INS
+				//IMPL check for unimplemented INS
 				descr += "unknown instruction";
 				break;
 			}
@@ -733,7 +733,7 @@ public class ApduCommandTextHover implements ITextHover {
 					break;
 					
 				default:
-					//TODO implement other options
+					//IMPL implement other options
 					descr = "unknown instruction";
 					infos.add(new HoverInfo(HoverInfo.FieldType.DATA, data, descr));
 					break;
