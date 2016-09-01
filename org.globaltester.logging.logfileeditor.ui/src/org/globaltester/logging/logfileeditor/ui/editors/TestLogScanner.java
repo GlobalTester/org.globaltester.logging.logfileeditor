@@ -21,7 +21,6 @@ import org.globaltester.base.ui.editors.GtScanner;
  * 
  */
 public class TestLogScanner extends GtScanner {
-	//TODO TestLogScanner should be contributed through a new extension point from o.g.testrunner
 
 	public final static String CT_TESTLOG_EXECUTION = "__TESTLOG_EXECUTION";
 	public final static String CT_TESTLOG_EXECUTION_COLOR = "__TESTLOG_EXECUTION_COLOR";
