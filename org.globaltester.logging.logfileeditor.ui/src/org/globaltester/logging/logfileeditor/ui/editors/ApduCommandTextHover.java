@@ -727,8 +727,9 @@ public class ApduCommandTextHover implements ITextHover {
 					break;
 				
 				case (byte) 0x44:
-					if (apdu[2] == 0x00 && apdu[3] == 0x00)
-					descr = "Activate file with file ID '" + data + "'";
+					if (apdu[2] == 0x00 && apdu[3] == 0x00) {
+						descr = "Activate file with file ID '" + data + "'";
+					}
 					infos.add(new HoverInfo(HoverInfo.FieldType.DATA, data, descr));
 					break;
 					
